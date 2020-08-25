@@ -1,0 +1,29 @@
+.config {
+  width: 650px;
+  margin: auto;
+  h3 {
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+  }
+  .input-value {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+    .p-label {
+      input {
+        height: 25px;
+      }
+      label {
+        position: absolute;
+        top: -20px;
+      }
+    }
+    .p-button-raised {
+        height: 28px;
+    }
+  }
+}
